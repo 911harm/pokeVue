@@ -5,9 +5,9 @@ import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
   const routes = [
-    
+    { path: '/', redirect: '/pokeVue' },
     {
-    path: '/',
+    path: '/pokeVue',
     name: 'Home',
     component: Home
   },
